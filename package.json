@@ -1,0 +1,26 @@
+{
+  "name": "TimeBit Microservice",
+  "version": "0.0.1",
+  "description": "Gets a Unix Timestamp or Date",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.0.0-alpha.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djoc3/timebit-microservice"
+  },
+  "keywords": [
+    "node",
+    "timebit",
+    "express"
+  ],
+  "license": "MIT"
+}
