@@ -1,5 +1,5 @@
 {
-  "name": "TimeBit Microservice",
+  "name": "timebit- Microservice",
   "version": "0.0.1",
   "description": "Gets a Unix Timestamp or Date",
   "main": "server.js",
