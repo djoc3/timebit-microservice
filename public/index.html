@@ -5,6 +5,7 @@
       <link rel="shortcut icon" href="https://cdn.glitch.com/c9fb4986-a2ea-457a-88b3-d2b590f286fb%2Ffavicon%20(3).ico?v=1580608898312" type="image/x-icon"/>
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
       <link href="/public/style.css" rel="stylesheet" type="text/css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
    <body>
       <div class="container">
@@ -14,7 +15,7 @@
         </h3>
         <ol class="user-stories">
           
-          <li>The API endpoint is <code>GET [project_url]/api/timestamp/:date_string?</code></li>
+          <li>The API endpoint is <code>GET [project_url] api/timestamp/:date_string?</code></li>
           <li>A date string is valid if can be successfully parsed by <code>new Date(date_string)</code>.<br>
           Note that the unix timestamp needs to be an <strong>integer</strong> (not a string) specifying <strong>milliseconds</strong>.<br> 
           Use date strings compliant with ISO-8601 (e.g. <code>"2016-11-20"</code>) because this will ensure a UTC timestamp.</li>
